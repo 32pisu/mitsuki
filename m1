@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("I am perfect people");
+
+    
+    int gozilla;
+    gozilla=666;
+    
+    printf("gozilla is : %d", gozilla);
+
+    return 0;
+}
+
