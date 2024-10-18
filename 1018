@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+int k, m, n;
+    printf("How many students?");
+    scanf("%d", &k);
+    printf("How many teachers?");
+    scanf("%d", &m);
+    n = k + m;
+    printf("The number of peoples is %d", n);
+    
+    
+    return 0;
+}
