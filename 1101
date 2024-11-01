@@ -1,0 +1,13 @@
+#include <float.h>
+#include <limits.h>
+#include <stdio.h>
+
+
+int main(void)
+{
+    printf("long long型の最大値:%ld\n" , LLONG_MAX);
+    printf("long long型の最小値:%ld\n" , LLONG_MIN);
+    printf("long double型の精度:%lf\n" , DBL_DIG);
+    
+    return 0;
+}
