@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int diff;
+    char large; 
+    char small; 
+    
+    printf("アルファベットの大文字の入力＞＞＞");
+    
+    
+    scanf("%c",&small);
+    diff='A'-'a';
+    large=small+diff;
+    
+    printf("小文字は%c 大文字は%c\n", small, large);
+    
+    return 0;
+}
