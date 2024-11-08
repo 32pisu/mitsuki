@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int k;
+    printf("How older you?");
+    scanf("%d", &k);
+    
+    if (k>=20)
+    {
+        printf("Your adult");
+    }
+    else
+    {
+        printf("Your child");
+    }
+    return 0;
+}
